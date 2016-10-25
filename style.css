@@ -13,41 +13,26 @@ p {
   margin-bottom: 20px;
 }
 
-header {
-  background: #1a1a1a;
-  width: 100%;
-  position: fixed;
-  height: 90px;
-  z-index: 100;
+/* Comienzo estilo header*/
+.navbar {
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 0px;
 }
-
-nav img {
-	float: left;
-}
- 
-nav ul {
-  list-style: none;
-  overflow: hidden; 
-}
- 
-nav ul li {
-  float: right !important;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
- 
-nav ul li a {
-  display: block; 
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-	list-style: none;
-}
- 
 nav ul li:hover {
   background: #FE0000;
-  height: 90px;
 }
+nav ul li a {
+  padding: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+  height:40px;
+}
+/* fin estilo header*/
 
 .carousel {
   padding-top: 25px;
