@@ -245,3 +245,10 @@ nav ul li:hover {
 	font-size: 20px;
 }
 
+/*inicio de sesion*/
+
+.inisesion {
+	padding-top: 100px;
+	text-align: center;
+	height: 500px;
+}
