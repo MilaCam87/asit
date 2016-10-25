@@ -3,26 +3,56 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-/*.navbar {
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-  height: 100px;
-}
-.navbar li{
-	text-decoration: none;
-	display: inline;
+/*.navbar*/
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.navbar ul {
-	padding-top: 30px;
+p {
+  margin-bottom: 20px;
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
+header {
+  background: #1a1a1a;
+  width: 100%;
+  position: fixed;
+  height: 90px;
+  z-index: 100;
+}
+
+nav img {
+	float: left;
+}
+ 
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+ 
+nav ul li {
+  float: right !important;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+ 
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+	list-style: none;
+}
+ 
+nav ul li:hover {
+  background: #FE0000;
+  height: 90px;
+}
+
+.carousel {
+  padding-top: 25px;
+}
+
 /*barra de redes sociales*/
 
 .social {
@@ -39,7 +69,7 @@ body {
 .rsocial {
 	position: fixed;
 	left: 0px;
-	top:62px;
+	top:90px;
 	z-index: 2000;
 
 }
@@ -73,9 +103,9 @@ body {
 
 /*seccion de filtro*/
 
-.filtros h4 {
-	color: #1a1a1a;
-	text-align: left;
+.filtros h3 {
+	color: #FE0000;
+	text-align: right;
 	margin-top: 50px;
 	font-size: 30px;
 
@@ -84,7 +114,7 @@ body {
 .filtros ul li {
 	text-decoration: none;
 	list-style: none;
-	text-align: left;
+	text-align: right;
 	color: #1a1a1a;
 	font-size: 20px;
 	margin-left: -40px;
@@ -94,8 +124,8 @@ body {
 	color: #FE0000;
 }
 
-.filtros h4:hover {
-	color: #FE0000;
+.filtros h3:hover {
+	color: #1a1a1a;
 }
 
 .box {
@@ -136,60 +166,12 @@ body {
 }
 
 .footer-menu ul {
-	margin-top: 30px;
+	margin-top: 10px;
   text-align: right;
 }
 
 .footer-menu ul li a:hover {
 	color: #FE0000;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-header {
-  background: #1a1a1a;
-  width: 100%;
-  position: fixed;
-  height: 63px;
-  z-index: 100;
-}
-
-nav {
-  float: right; 
-}
- 
-nav ul {
-  list-style: none;
-  overflow: hidden; 
-}
- 
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
- 
-nav ul li a {
-  display: block; 
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-	list-style: none;
-}
- 
-nav ul li:hover {
-  background: #FE0000;
-}
-
-.carousel {
-  padding-top: 25px;
 }
 
 /*pagina de inscripcion*/
@@ -248,7 +230,7 @@ nav ul li:hover {
 /*inicio de sesion*/
 
 .inisesion {
-	padding-top: 100px;
+	padding-top: 200px;
 	text-align: center;
-	height: 500px;
+	height: 550px;
 }
